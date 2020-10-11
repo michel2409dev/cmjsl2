@@ -16,5 +16,6 @@
         "titleBar.inactiveForeground": "#e7e7e799"
     },
     "peacock.color": "#007fff",
-    "liveServer.settings.multiRootWorkspaceName": "cmjsl2"
+    "liveServer.settings.multiRootWorkspaceName": "cmjsl2",
+    "liveServer.settings.port": 5501
 }

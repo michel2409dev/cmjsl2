@@ -10,7 +10,7 @@
 /* FUENTE PERSONALIZADA*/
 @font-face{
 	font-family: "cmjfonts";
-	src: url(../fonts/Raleway-Black.ttf);
+	src: url(../fonts/Raleway-Bold.ttf);
 	/*src: url(../fonts/Raleway-BlackItalic.ttf);*/
 	/*src: url(../fonts/Raleway-ThinItalic.ttf);*/
 }
@@ -97,7 +97,7 @@ div {
 	display: none;
 	font-style: normal;
 	font-size: 25px;
-	font-weight: bolder;
+	/*font-weight: normal;*/
 	width: 100%;
 	text-align: center ;
 	
@@ -132,7 +132,7 @@ div {
 	font-family: "cmjfonts";
 	font-size: 1em;
 	font-style: normal;
-	font: bold;               
+	/*font: bold;*/               
 	color: #dedede;
 	transition: 0.3s;
 	transition: ease-in-out 0.1s;
