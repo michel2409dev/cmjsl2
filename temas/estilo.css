@@ -11,6 +11,8 @@
 @font-face{
 	font-family: "cmjfonts";
 	src: url(../fonts/Raleway-Black.ttf);
+	src: url(../fonts/Raleway-BlackItalic.ttf);
+	
 	/*src: url(../fonts/Raleway-ThinItalic.ttf);*/
 }
 
