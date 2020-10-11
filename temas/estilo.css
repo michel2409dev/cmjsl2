@@ -6,6 +6,8 @@
 	margin: 0px;
 	box-sizing: border-box;
 }
+
+/* FUENTE PERSONALIZADA*/
 @font-face{
 	font-family: "cmjfonts";
 	src: url(../fonts/Raleway-Black.ttf);
