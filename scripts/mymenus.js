@@ -103,7 +103,7 @@ var gdivcontacto="";
 
 
         function menuconsultoria(){
-            //alert("hola");
+            alert("hola");
             gdivcentral.style.display="inline-block";
             gdivinicio.style.display="none";
             gdivsoftware.style.display="none";
