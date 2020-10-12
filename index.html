@@ -248,10 +248,16 @@
 						</section>
 			</div>
 			<div id="div_Contacto">
-				<h3>Contacto</h3>
-							<form action="mailto" id="frmContacto" name="frmContacto">
-								<label for="str_nombre">Nombre:</label>
-								<input type="text" id="inp_nombre" name="str_nombre" placeholder="Escriba su nombre">
+				<!--<h3>Contacto</h3>-->
+							<form  id="frmContacto" name="frmContacto" enctype="text/plain"  action="mailto:info@cmjsl.com"  method="POST" >
+								<!--<label for="str_nombre">Nombre:</label>-->
+								<h4>Contacto</h4>
+								<input type="text" id="inp_nombre" name="str_nombre" placeholder="Nombre" required>
+								<input type="text" id="inp_apellido" name="str_apellido" placeholder="Apellido" required>
+								<input type="email"  id="inp_email" name="str_email" placeholder="E-mail" required>
+								<textarea id="inp_comentario" name="str_comentario" cols="80" rows="5" spellcheck="true" placeholder="Comentario" required></textarea>
+								<input type="submit" value="Enviar">	
+
 
 							</form>
 			</div>
