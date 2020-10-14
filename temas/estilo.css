@@ -22,7 +22,7 @@ body {
 	margin: 0px;
 	/*height: 700px;*/
 	background-color:#fafcff;
-	color: #232f3e;
+		color: #232f3e;
 	/*width: 80%;*/
 		
 }
@@ -112,10 +112,50 @@ div {
 	width: 70%;
 	margin: 20px;
 	text-align: justify;
+	padding: 35px;
 	
+	
+}
+
+
+#div_Software{
+background-image: url(../images/fondosmenu/Opfondsoftmedida.png);
+background-size: cover;
+background-position: center;
+min-height: 500px;
+
 
 }
 
+
+#div_Consultoria{
+	background-image: url(../images/fondosmenu/fondconsultoria.png);
+	background-size: cover;
+	background-position: center;
+	min-height: 500px;
+	
+	
+	}
+
+	
+#div_DesarrolloWeb{
+	background-image: url(../images/fondosmenu/fondwebdev.png);
+	background-size: cover;
+	background-position: center;
+	min-height: 500px;
+	
+	
+	}
+
+	
+#div_Contacto{
+	background-image: url(../images/fondosmenu/fondcontacto.png);
+	background-size: cover;
+	background-position: center;
+	min-height: 500px;
+	
+	
+	}
 
 #nav_menu_principal ul{
 	list-style: none;
@@ -264,6 +304,7 @@ form{
 display: block;
 
 background-color:#8dc3ec;
+background: transparent;
 border-radius: 20px;
 width: 650px;
 /*height: 450px;*/
@@ -352,6 +393,7 @@ color: #333333;
 font: italic;
 
 }
+
 
 .class_colordiv{
 	background-color:#333333;
