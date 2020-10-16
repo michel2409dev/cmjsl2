@@ -21,7 +21,7 @@ body {
 	font-style: normal;
 	margin: 0px;
 	/*height: 700px;*/
-	background-color:#fafcff;
+	background-color:#dedede;
 		color: #232f3e;
 	/*width: 80%;*/
 		
@@ -30,6 +30,7 @@ body {
 
 p{
 	padding-left: 32px;
+	size: inherit;
 	
 	}
 	
@@ -37,6 +38,7 @@ p{
 h1{
 	font-size: 2em;
 	font-style: italic;
+	size: inherit;
 }
 
 h3{
@@ -44,19 +46,20 @@ color:#333333;
 font-style: normal;
 font-size: 1.5em;
 padding: 3px;
+size: inherit;
 }
 
 h4{
 	font-size: 1.1em;
 	font-style: normal;
-
+	size: inherit;
 
 }
 
 
 div {
 	width: 100%;
-	margin-top: 0px;
+	margin: 0px;
 	padding: 0px;
 	font-family: "cmjfonts";
 	font-size: 1em;
@@ -72,11 +75,22 @@ div {
 }
 
 #div_head{
-	width: 100%;
+	/*width: 100%;*/
 	height: 125px;
-	padding-top: 15px;
-	padding-bottom: 15px;
+	padding-top: 0px;
+	padding-bottom: 0px;
+	margin-right: 0px;
+	margin-left: 0px;
+
 }
+
+#div_head img{
+	width: 900px ;
+	height:70px;
+	margin: 0px;
+
+}
+
 
 #div_TopBanner{
 	width: 70%;
@@ -167,22 +181,26 @@ min-height: 500px;
 
 #nav_menu_principal ul{
 	list-style: none;
-	margin-top: 5px;
+	margin-top: 0px;
 	
 }
 
 #nav_menu_principal li{
 	display: inline;
-	padding: 25px;
+	padding-bottom: 35px;
+	padding-left: 25px;
+	margin-bottom: 65px;
+
 }
 #nav_menu_principal a{
 
 	text-decoration: none;
 	font-family: "cmjfonts";
-	font-size: 1em;
+	font-size: 1.3em;
 	font-style: normal;
+	font-weight: bolder;
 	/*font: bold;*/               
-	color: #dedede;
+	color: #232f3e;
 	transition: 0.3s;
 	transition: ease-in-out 0.1s;
 
@@ -192,10 +210,11 @@ min-height: 500px;
 #nav_menu_principal a:hover {
 	
 	font-family: "cmjfonts";
-	font-size: 112%;
+	/*font-size: 112%;*/
+	font-size: 1.5em;
 	font-style: normal;
 	font-weight: bolder;               
-	color: #f8991d;
+	color: #005ec2;
 	/*transform: scale(2.0);*/
 
 
@@ -405,14 +424,17 @@ font: italic;
 
 .class_colordiv{
 	background-color:#333333;
-	background-image: url(../images/fondo1.png);
+	background-image: url(../images/fondoCubosBlancos.png);
+	
+	background-size: cover;
+	
 }
 
-.class_colordiv >header>figure>img{
+/* .class_colordiv >header>figure>img{
 
 margin-left: 15px;
 
-}
+} */
 /* estilo del slider*/ 
 
 
