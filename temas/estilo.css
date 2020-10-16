@@ -114,31 +114,27 @@ div {
 	font-size: 25px;
 	font-weight: lighter;
 	width: 100%;
-	text-align: center ;
+	text-align: justify ;
 	
 }
 
 #div_central p{
 
 	padding: 25px;
-	line-height: 40px;
-
+	line-height: 28px;
 
 }
-
 
 
 #div_Inicio, #div_Software, #div_Consultoria, #div_DesarrolloWeb, #div_Proyectos, #div_Contacto{
 
 	/*border: solid;*/
-	width: 70%;
-	margin: 20px;
+	width: 100%;
+	margin: 0px;
 	text-align: justify;
 	padding: 35px;
 	
-	
 }
-
 
 #div_Software{
 background-image: url(../images/fondosmenu/Opfondsoftmedida.png);
@@ -190,8 +186,8 @@ min-height: 500px;
 	padding-bottom: 35px;
 	padding-left: 25px;
 	margin-bottom: 65px;
-
 }
+
 #nav_menu_principal a{
 
 	text-decoration: none;
@@ -199,25 +195,18 @@ min-height: 500px;
 	font-size: 1.3em;
 	font-style: normal;
 	font-weight: bolder;
-	/*font: bold;*/               
 	color: #232f3e;
 	transition: 0.3s;
 	transition: ease-in-out 0.1s;
-
-
 }
 
 #nav_menu_principal a:hover {
 	
 	font-family: "cmjfonts";
-	/*font-size: 112%;*/
 	font-size: 1.5em;
 	font-style: normal;
 	font-weight: bolder;               
 	color: #005ec2;
-	/*transform: scale(2.0);*/
-
-
 }
 
 #sec_inicio{
@@ -227,40 +216,32 @@ min-height: 500px;
 
 
 #sec_inicio figure {
-/*border: solid;*/
+
 width: inherit;
 margin-left: auto;
 margin-right: auto;
 margin-top: 5px;
 margin-bottom: 0px;
-/*width: 310px;*/
 justify-content:center
-	/*padding-top: 5px;
-	padding-bottom: 2px;*/
-	/*text-align: ;*/
 }
 
 #sec_inicio figure figcaption{
-	/*border: solid;*/
+
 	width: 50%;
 	margin-left: auto;
 	margin-right: auto;
 	margin-top: 10px;
-	/*margin-bottom: 2px;*/
 	padding-top: 5px;
 	text-align: center;
-	/*justify-items: center;*/
 	font-size: 0.4em;
 	font-style: normal;
 	font: bolder;
 	color: #715c5c;
-	
 }
 
 
 #sec_inicio figure img{
-	/* height: 200px;
-	width: 300px; */
+
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
@@ -274,15 +255,16 @@ justify-content:center
 }
 
 #sec_inicio figure img:hover{
+	
 	cursor: pointer;
-	background: #f8991d;
+	background: #005ec2;
 	transform: scale(1.09);
-
 }
 
 
 	
 #sec_proyectos figure figcaption {
+
 	width: 150px;
 	margin-left: 25%;
 	display: block;
@@ -293,16 +275,13 @@ justify-content:center
 	font: italic;
 	font-size: 0.3em;
 	text-align: center;
-	/*border: solid;*/
-
 }
 
 	
 	
 #sec_proyectos figure img{
-	/*width: 150px;*/
+
 	display: block;
-	/*margin: auto;*/
 	margin-left: auto;
 	margin-right: auto;
 	width: 50%;
@@ -328,18 +307,18 @@ justify-content:center
 
 
 form{
-display: block;
 
+display: block;
 background-color:#8dc3ec;
 background: transparent;
 border-radius: 20px;
 width: 650px;
-/*height: 450px;*/
 padding: 45px;
 margin: auto;
-
 }
+
 form h4{
+
 margin-left: 15px;	
 padding: 15px;
 border: solid;
@@ -348,10 +327,10 @@ border-color:#333333;
 border-radius: 10px;
 color: #ffffff;
 width: fit-content;
-
 }
 
 form input, textarea{
+
 padding: 15px;
 width: 550px;
 margin: 15px;
@@ -361,10 +340,10 @@ border: solid;
 border-width: 1px;
 border-color: #b8b8b8;
 font-size: 1em;
-
 }
 
 form input[type="submit"]{
+
 	width:25%;
 	padding:8px 16px;
 	margin-top:32px;
@@ -390,13 +369,11 @@ form input[type="submit"]:hover{
 	margin-bottom: 10px;
 	display: grid;
 	grid-template-columns: repeat(3 ,1fr);
-	/*grid-template-rows: auto;*/
 	gap: 1em;
-	/*border: solid;*/
 	}
 	
 	.class_grid_proyectos{
-		/*justify-content: center;*/
+
 		background:#b8b8b8 ;
 		padding-top: 20px;
 		width: 80%;
@@ -409,7 +386,6 @@ form input[type="submit"]:hover{
 		grid-template-rows: auto;
 		align-items: flex-start;
 		gap: 1em;
-		/*border: solid;*/
 		}
 	
 
@@ -423,19 +399,23 @@ font: italic;
 
 
 .class_colordiv{
+
 	background-color:#333333;
 	background-image: url(../images/fondoCubosBlancos.png);
-	
 	background-size: cover;
-	
 }
 
-/* .class_colordiv >header>figure>img{
+.class_h3{
 
-margin-left: 15px;
-
-} */
-/* estilo del slider*/ 
+	border: solid;
+	width: fit-content;
+	margin: 0px;
+	border-left: transparent;
+	border-top: transparent;
+	border-radius: 5px;
+	padding-right: 10px;
+	padding-bottom: 10px;
+}
 
 
 .nav_slider{
@@ -458,11 +438,10 @@ margin-left: 15px;
 
 	list-style:none ;
 	width: 100%;
-	
 }
 
 .nav_slider img{
-	/*opacity: 1;*/
+
 	width: 100%;
 	height: 400px;
 }
@@ -482,8 +461,6 @@ margin-left: 15px;
 
 	75% {margin-left: -300%;}
 	100% {margin-left: -300%;}
-
-
 }
 
 
