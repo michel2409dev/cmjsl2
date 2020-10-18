@@ -15,13 +15,20 @@
 	/*src: url(../fonts/Raleway-ThinItalic.ttf);*/
 }
 
+
+
+html{
+background-color: black;
+
+}
+
 body {
 
 	font-family: "cmjfonts";
 	font-style: normal;
 	margin: 0px;
 	/*height: 700px;*/
-	background-color:#dedede;
+	background-color:#615c5c;
 		color: #232f3e;
 	/*width: 80%;*/
 		
@@ -30,7 +37,7 @@ body {
 
 p{
 	padding-left: 32px;
-	size: inherit;
+	/*size: inherit;*/
 	
 	}
 	
@@ -38,7 +45,7 @@ p{
 h1{
 	font-size: 2em;
 	font-style: italic;
-	size: inherit;
+	/*size: inherit;*/
 }
 
 h3{
@@ -46,20 +53,22 @@ color:#333333;
 font-style: normal;
 font-size: 1.5em;
 padding: 3px;
-size: inherit;
+/*size: inherit;*/
 }
 
 h4{
 	font-size: 1.1em;
 	font-style: normal;
-	size: inherit;
+	/*size: inherit;*/
 
 }
 
 
 div {
-	width: 100%;
-	margin: 0px;
+	/*background-color:#dedede;*/
+	width: 90%;
+	margin-left: auto;
+	margin-right: auto;
 	padding: 0px;
 	font-family: "cmjfonts";
 	font-size: 1em;
@@ -69,13 +78,16 @@ div {
 
 
 #div_body{
-	width: 100%;
-	margin: 0px;
-	
+	background-color:#dedede;
+	width: 90%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 0px;
 }
 
+
 #div_head{
-	/*width: 100%;*/
+	width: 100%;
 	height: 125px;
 	padding-top: 0px;
 	padding-bottom: 0px;
@@ -130,6 +142,7 @@ div {
 #div_footer{
 
 width: 100%;
+min-height: 150px;
 background-color: #242323;
 padding: 35px;
 
@@ -270,7 +283,7 @@ justify-content:center
 	text-align: center;
 	font-size: 0.4em;
 	font-style: normal;
-	font: bolder;
+	/*font: bolder;*/
 	color: #715c5c;
 }
 
@@ -292,7 +305,7 @@ justify-content:center
 #sec_inicio figure img:hover{
 	
 	cursor: pointer;
-	background: #005ec2;
+	background: #333333;
 	transform: scale(1.09);
 }
 
@@ -329,7 +342,7 @@ justify-content:center
 
 #sec_proyectos figure img:hover{
 
-	background: #232f3e;
+	background: #333333;
 	transform: scale(1.09);
 }
 
@@ -376,6 +389,25 @@ justify-content:center
 }
 
 
+/* SECCION FORMULARIO CONTACTO*/
+
+.class_fomulario{
+
+display: flex;
+width: 1200px;
+margin: 0px auto;
+border: solid;
+
+}
+
+
+.class_formlateral{
+
+	width: 40%;
+	background-color: brown;
+	opacity: 0.3;
+	}
+	
 
 
 form{
@@ -385,7 +417,7 @@ display: block;
 color:#acaaaaf2;
 border: solid;
 border-radius: 15px;
-width: 650px;
+width: 900px;
 padding: 5px;
 margin: auto;
 }
@@ -439,9 +471,7 @@ form input[type="submit"]:hover{
 
 
 
-
-
-
+/* FIN SECCION FORMULARIO */
 
 
 .class_grid_inicio{
@@ -458,8 +488,8 @@ form input[type="submit"]:hover{
 	.class_grid_proyectos{
 
 		background:#b8b8b8 ;
-		padding-top: 10px;
-		padding-bottom: 10px;
+		padding-top: 40px;
+		padding-bottom: 40px;
 		width: 80%;
 		margin-left: auto;
 		margin-right: auto;
@@ -486,7 +516,7 @@ form input[type="submit"]:hover{
 	margin-left: auto;
 	margin-right: auto;
 	margin-top: 1px;
-	margin-bottom: 1px;
+	margin-bottom: 3px;
 	display: grid;
 	grid-template-columns: repeat(4 ,1fr);
 	grid-template-rows: auto;
@@ -498,7 +528,7 @@ form input[type="submit"]:hover{
 
 .class_span{
 color: #333333;
-font: italic;
+/*font: italic;*/
 
 }
 
@@ -513,7 +543,9 @@ font: italic;
 .class_h3{
 	float: left;
 	border: solid;
-	width: fit-content;
+	min-width: min-content;
+	max-width: max-content;
+	/*width: fit-content;*/
 	margin-right: 20px;
 	margin-left: auto;
 
@@ -532,7 +564,9 @@ font: italic;
 	/*font-size: 1.5em;*/
 	color: #acaaaaf2;
 	margin: 0px;
-	width: fit-content(100%);
+	min-width: min-content;
+	max-width: max-content;
+	/*width: fit-content(100%);*/
 	border: solid;
 	border-top: transparent;
 	border-left: transparent;
@@ -544,31 +578,40 @@ font: italic;
 
 .class_redsocial {
 
-	
+	position: relative;
+	text-decoration: none;
 	/*float: left;*/
-	margin-top: 0px;
+	margin-top: 150px;
 	margin-left: 5px;
 	padding:0px;
 	/*line-height: 28px;*/
 	border: solid;
 	border: 1px;
-	border-color: lightcoral;
-	width: fit-content;
-	background-color: lightgreen;
+	/*border-color: lightcoral;*/
+	/*width: fit-content;*/
+/*	background-color: lightgreen;*/
 
 }
  
 .class_redsocial li{
 
 display: block;
-padding-top: 20px;
+/*padding-top: 20px;*/
+padding:10px;
+
+}
+/* 
+.class_redsocial li i :hover{
+
+background-color: lawngreen;
 
 
 }
-
+ */
 
 .nav_slider{
 	
+	background-color: black;
 	margin: auto;
 	width: 100%;
 	height: 300px;

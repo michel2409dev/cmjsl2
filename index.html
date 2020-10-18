@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="es">
 	<head>
+		<meta charset="UTF-8"/>
 		<meta http-equiv="Expires" content="0">
 		<meta http-equiv="Last-Modified" content="0">
 		<meta http-equiv="Cache-Control" content="no-cache, mustrevalidate">
@@ -10,8 +11,12 @@
 		
 		<script lang="javascript"	type="text/javascript" src="./scripts/mymenus.js"></script>
 		<link rel="stylesheet" href="./temas/estilo.css" />
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.css" 
+					integrity="sha512-f73UKwzP1Oia45eqHpHwzJtFLpvULbhVpEJfaWczo/ZCV5NWSnK4vLDnjTaMps28ocZ05RbI83k2RlQH92zy7A==" crossorigin="anonymous" />
+		<!-- <link rel="stylesheet" href="./fontawesome-free-5.15.1-web/css/all.css" /> -->
+
 		
-		<title>Consultor&iacutea inform&aacutetica CmJ SL</title>
+		<title>Consultor&iacute;a inform&aacute;tica CmJ SL</title>
 
 	</head>
 
@@ -39,9 +44,7 @@
 
 		
 		</div>
-	
-	
-		<div id="div_TopBanner">
+			<div id="div_TopBanner">
 
 				<nav class="nav_slider">
 					<ul>
@@ -50,18 +53,42 @@
 						<li><img src="./images/slider/01DESARROLLOWEB.png"/></li>
 						<li><img src="./images/slider/01REDES.png"/></li>
 					</ul>
-				</nav>
+				</nav><br>
 
-				<ol class="class_redsocial">
-					<li><a href="#" id="hola1"></a>1</li>
-					<li><a href="#" id="hola2"></a>2</li>
-					<li><a href="#" id="hola3"></a>3</li>
-					<li><a href="#" id="hola4"></a>4</li>
-					<li><a href="#" id="hola5"></a>5</li>
-				</ol>
+				<ul class="class_redsocial">
+					<li>
+						<a href="https://www.twitter.com" target="_blank" title="link twitter">
+							<span style="color: black;"><i class="fab fa-twitter-square fa-lg"></i></span>
+						</a>
+					</li>
+
+					<li>
+						<a href="https://www.facebook.com" target="_blank" title="link faceboock">
+							<span style="color: black;"><i class="fab fa-facebook-square fa-lg"></i></span>
+						</a>
+					</li>
+
+					<li>
+						<a href="https://www.linkedin.com" target="_blank" title="link linkedin">
+							<span style="color: black;"><i class="fab fa-linkedin fa-lg"></i></span>
+						</a>
+					</li>
+					
+					<li>
+						<a href="https://www.instagram.com/?hl=es" target="_blank" title="link instagram">
+							<span style="color: black;"><i class="fab fa-instagram-square fa-lg"></i></span>
+						</a>
+				</li>
+				
+				<li>
+					<a href="https://www.youtube.com/?hl=es&gl=ES" target="_blank" title="link youtube">
+						<span style="color: black;"><i class="fab fa-youtube-square fa-lg"></i></span>
+					</a>
+				</li>
+
+				</ul>
 
 		</div>
-
 		<div id="div_central">
 			<!--<h1>Div central</h1>-->
 		
@@ -155,7 +182,7 @@
 			<div id="div_Proyectos">
 				<h3 class="class_h3">Proyectos</h3>
 						
-						<p>Algunos de nuestros proyectos realizados.</p>
+						<p>Algunos de nuestros proyectos realizados.</p><br>
 
 						<section id="sec_proyectos" class="class_grid_proyectos">
 
@@ -279,20 +306,29 @@
 			</div>
 			<div id="div_Contacto">
 				<!--<h3>Contacto</h3>-->
+
+				<!-- 	<div id="div_formuario" class="class_fomulario">
+							<div id="div_formlateral" class="class_formlateral">
+									<h2>informacion lateral</h2>
+							</div>
+ -->
 							<form  id="frmContacto" name="frmContacto" enctype="text/plain"  action="mailto:info@cmjsl.com"  method="POST" >
-								<!--<label for="str_nombre">Nombre:</label>-->
+										<!--<label for="str_nombre">Nombre:</label>-->
 								<h4>Contacto</h4>
-								<input type="text" id="inp_nombre" name="str_nombre"  autofocus  placeholder="Nombre" required >
-								<input type="text" id="inp_apellido" name="str_apellido" placeholder="Apellido" required>
-								<input type="email"  id="inp_email" name="str_email" placeholder="E-mail" required>
-								<textarea id="inp_comentario" name="str_comentario" cols="80" rows="5" spellcheck="true" placeholder="Comentario" required></textarea>
-								<input type="submit" value="Enviar">	
-
-
+									<input type="text" id="inp_nombre" name="str_nombre"  autofocus  placeholder="Nombre" required >
+									<input type="text" id="inp_apellido" name="str_apellido" placeholder="Apellido" required>
+									<input type="email"  id="inp_email" name="str_email" placeholder="E-mail" required>
+									<textarea id="inp_comentario" name="str_comentario" cols="80" rows="5" spellcheck="true" placeholder="Comentario" required></textarea>
+									<input type="submit" value="Enviar">	
+												
 							</form>
+
+					<!-- </div> -->
+						
+						
 			</div>
 			<div id="div_footer">
-				<h5 class="class_h5">Colaboradores</h5>
+				<h5 class="class_h5">Colaboradores &nbsp;</h5>
 				<footer id="footer_colaboradores" class="class_grid_footer">
 
 					<figure>
