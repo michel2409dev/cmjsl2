@@ -126,7 +126,7 @@ div {
 	font-size: 25px;
 	font-weight: lighter;
 	width: 100%;
-	text-align: justify ;
+	text-align: center ;
 	
 }
 
@@ -153,11 +153,22 @@ padding: 35px;
 #div_Inicio, #div_Software, #div_Consultoria, #div_DesarrolloWeb, #div_Proyectos, #div_Contacto{
 
 	/*border: solid;*/
-	width: 100%;
-	margin: 0px;
+	width: 90%;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	margin-left: auto;
+	margin-right: auto;
+	/*align-content: center;*/
+
 	text-align: justify;
 	padding: 35px;
 	
+}
+
+#div_Inicio, #div_Proyectos, #div_Contacto{
+
+	background-color: #d4d4d4;#cccccc
+
 }
 
 
@@ -412,14 +423,19 @@ border: solid;
 
 form{
 
-display: block;
+/*display: block;*/
+text-align: left;
+
 /*background: transparent;*/
 color:#acaaaaf2;
 border: solid;
 border-radius: 15px;
-width: 900px;
+width: 50%;
 padding: 5px;
-margin: auto;
+margin-left: auto;
+margin-right: auto;
+
+
 }
 
 form h4{
@@ -438,17 +454,17 @@ width: 150px;
 }
 
 form input, textarea{
-
-padding: 15px;
-width: 550px;
-margin: 15px;
+padding: 10px;
+padding-right: 15px;
+width: 95%;
+margin: 10px;
 background-color: #ffffff;
 background-color: transparent;
 border-radius: 5px;
 border: solid;
 border-width: 2px;
 border-color: #b8b8b8;
-font-size: 1em;
+font-size: 0.8em;
 }
 
 form input[type="submit"]{
@@ -487,14 +503,16 @@ form input[type="submit"]:hover{
 	
 	.class_grid_proyectos{
 
-		background:#b8b8b8 ;
+		background:#cccccc;
+		text-align: center;
+		border-radius: 10px;
 		padding-top: 40px;
 		padding-bottom: 40px;
 		width: 80%;
 		margin-left: auto;
 		margin-right: auto;
-		margin-top: 20px;
-		margin-bottom: 10px;
+		margin-top: 0px;
+		margin-bottom: 20px;
 		display: grid;
 		grid-template-columns: repeat(4 ,1fr);
 		grid-template-rows: auto;
@@ -580,6 +598,7 @@ color: #333333;
 
 	position: relative;
 	text-decoration: none;
+	width: 10%;
 	/*float: left;*/
 	margin-top: 150px;
 	margin-left: 5px;
