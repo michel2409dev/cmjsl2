@@ -215,9 +215,21 @@ min-height: 500px;
 	
 	}
 
+
+	#nav_menu_principal{
+
+		margin-left: 0px;
+		margin-top: 0px;
+		padding-top: 90px;
+		padding-left: 2px;
+	}
+
+
+
+
 #nav_menu_principal ul{
 	list-style: none;
-	margin-top: 10px;
+	margin-top: 0px;
 	
 }
 
@@ -239,6 +251,7 @@ min-height: 500px;
 	transition: 0.3s;
 	transition: ease-in-out 0.1s;
 }
+
 
 #nav_menu_principal a:hover {
 	
@@ -319,23 +332,6 @@ justify-content:center
 	background: #333333;
 	transform: scale(1.09);
 }
-
-/* 
-	
-#sec_proyectos figure figcaption {
-
-	width: 150px;
-	margin-left: 25%;
-	display: block;
-	margin-left: auto;
-	margin-right: auto;
-	width: 50%;
-	color: #5f2626;
-	font: italic;
-	font-size: 0.3em;
-	text-align: center;
-}
- */
 	
 	
 #sec_proyectos figure img{
@@ -400,49 +396,143 @@ justify-content:center
 }
 
 
-/* SECCION FORMULARIO CONTACTO*/
 
-.class_fomulario{
+/*#################################3 ESTILO DE INFORMACION CONTACTO ################################## */
 
-display: flex;
-width: 1200px;
-margin: 0px auto;
-border: solid;
+.info_title,
+.info_items{
+    /* position: relative;
+    z-index: 2; */
+    color: #fff;
+}
+
+
+.info_title{
+	margin-bottom: 1px;
+}
+
+.info_title span{
+	font-size: 100px;
+	display: block;
+	text-align: center;
+	margin-bottom: 2px;
+}
+
+.info_title h2{
+	font-size: 25px;
+	text-align: center;
+}
+
+/* .info_items p{
+	
+	display: flex;
+	text-align: left;
+	
+	
+	 
+	display: flex;
+	align-items: center;
+	align-items: flex-start;
+	margin-left: 2px;
+	font-size: 25px;
+	font-weight: 600;
+	margin-bottom: 10px;
+}
+
+.info_items p:nth-child(1) span{
+
+	margin-top: 0px;
+	font-size: 30px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.info_items p:nth-child(2) span{
+	font-size: 50px;
+	margin-right: 15px;
+	margin-left: 4px;
+}
+ */
+
+
+
+
+
+
+/* #########################################--FIN--##################################################### */
+
+
+
+
+
+.class_formulario{
+/*border: solid;*/
+background-color: #ffffff;
+box-shadow: 0px 0px 20px  rgb(0, 0, 0, 0.4);
+/*color:#acaaaaf2;*/
+border-radius: 0.8rem;
+width: 80%;
+text-align: justify;
+margin-left: auto;
+margin-right: auto;
+margin-top: 0rem;
+margin-bottom: 0rem;
+display: grid;
+align-items: inherit;
+grid-template-columns: 40% auto;
+grid-gap: 0vw;
 
 }
 
 
-.class_formlateral{
+.class_fondolateral{
+/*border: solid;*/
+margin: 0rem;
+width: 100%;
+background-image: url(../images/fondosmenu/agendacitas.png);
+background-size: cover;
 
-	width: 40%;
-	background-color: brown;
-	opacity: 0.3;
-	}
+
+}
+
+
+
+.class_div_formlateral{
 	
-
+	/*text-align: justify;*/
+	/*border: solid;*/
+	background-image: url(../images/fondosmenu/fondoAzul.png);
+	border-radius: 0.8rem 0rem 0rem 0.8rem;
+	margin: 0rem;
+	padding: 0rem;
+	height: 100%;
+	width: 100%;
+	opacity: 0.8;
+	background-size: cover;
+	
+	}
 
 form{
 
-/*display: block;*/
-text-align: left;
-
+text-align: center;
 /*background: transparent;*/
+background-color: #ffffff;
 color:#acaaaaf2;
-border: solid;
-border-radius: 15px;
-width: 50%;
-padding: 5px;
-margin-left: auto;
-margin-right: auto;
+border-radius: 0rem 0.8rem 0.8rem 0rem;
+width: 100%;
+padding: 0px;
+/*margin-left: 0rem;
+margin-right: auto;*/
 
 
 }
 
-form h4{
+#div_Contacto h4{
 
-margin-left: 15px;
-margin-bottom: 50px;	
-padding: 15px;
+margin-top: 0rem;
+margin-left: 1px;
+margin-bottom: 0px;	
+padding-left: 10px;
 border: solid;
 /* background-color: #232f3e;
 border-color:#333333;*/
@@ -454,36 +544,108 @@ width: 150px;
 }
 
 form input, textarea{
+
+text-align: left;
 padding: 10px;
-padding-right: 15px;
-width: 95%;
-margin: 10px;
+padding-right: 5px;
+padding-left: 5px;
+width: 80%;
+margin-top: 10px;
+margin-right: auto;
+margin-left: auto;
 background-color: #ffffff;
 background-color: transparent;
-border-radius: 5px;
+border-radius: 2px;
 border: solid;
 border-width: 2px;
 border-color: #b8b8b8;
 font-size: 0.8em;
+
 }
+/* 
+form textarea{
+
+max-width: 80%;
+max-height: 100px;
+
+
+}
+ */
 
 form input[type="submit"]{
 
-	width:25%;
-	padding:8px 16px;
-	margin-top:32px;
+	width:fit-content;
+	text-align: center;
+	padding:2px 2px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top:12px;
 	border:3px solid #000;
 	border-top: transparent;
 	border-left: transparent;
 	border-radius:5px;
 	display:block;
 	color:#fff;
-	background-color:#ec7211;
+	background-color:#4091ec;
 } 
 
 form input[type="submit"]:hover{
 	cursor:pointer;
+
 }
+
+	form input[type="reset"]{
+		
+		width: fit-content;
+		text-align: center;
+		padding:2px 2px;
+		margin-left: auto;
+		margin-right: auto;
+		margin-top:12px;
+		border:3px solid #000;
+		border-top: transparent;
+		border-left: transparent;
+		border-radius:5px;
+		display:block;
+		color:#fff;
+		background-color:#4091ec;
+	} 
+	
+	form input[type="reset"]:hover{
+		cursor:pointer;
+
+	
+
+}
+
+
+.class_ul_formulario{
+list-style: none;
+width: 100%;
+text-align: center;
+/*border: solid;*/
+margin: 0rem;
+
+}
+
+.class_ul_formulario li{
+
+	/*border: solid;*/
+	display: inline-flex;
+	width: 47%;
+	text-align: inherit;
+	padding: 65px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	padding-left: 50px;
+	margin-left: auto;
+	margin-right: auto;
+
+
+
+}
+
+
 
 
 
@@ -554,16 +716,35 @@ color: #333333;
 .class_colordiv{
 
 	background-color:#333333;
-	background-image: url(../images/fondoCubosBlancos.png);
+	background-image: url(../images/TecladoLlavePasswordCmJ.png);
 	background-size: cover;
 }
 
-
-.class_colordiv header figure{
-margin-left: 20px;
+/* 
+.class_colordiv {
+border: solid;
+margin-left: 5px;
 margin-top: 3px;
+width: 300px; 
+
+} */
+
+
+.class_imgrotulo{
+
+border: solid;
+margin-left: 5px;
 
 }
+
+
+.class_imgrotulo img{
+
+width: 500px;
+
+
+}
+
 
 
 
@@ -629,14 +810,6 @@ display: block;
 padding:10px;
 
 }
-/* 
-.class_redsocial li i :hover{
-
-background-color: lawngreen;
-
-
-}
- */
 
 .nav_slider{
 	
