@@ -698,7 +698,7 @@ margin: 0rem;
 	margin-top: 1px;
 	margin-bottom: 3px;
 	display: grid;
-	grid-template-columns: repeat(4 ,1fr);
+	grid-template-columns: repeat(3 ,1fr);
 	grid-template-rows: auto;
 	align-items: center;
 	gap: 1em;
