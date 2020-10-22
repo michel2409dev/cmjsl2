@@ -333,17 +333,21 @@
 																</div>
 														</div>
 
-																	<form  id="frmContacto" name="frmContacto" enctype="text/plain"  action="mailto:info@cmjsl.com"  method="POST" >
-																				<!--<label for="str_nombre">Nombre:</label>-->
+																	<form  id="frmContacto" name="frmContacto"  action="enviomail.php"  method="POST" >
+																				<div id="div_mensaje">
+																							<h3>Respuesta del sevidor:<input type="submit" value="X" class="class_X" id="id_botonX"></h3> <br> 
+																							<h5>Su mensaje ha sido entregado correctamente.<br>En breve nos pondremos en contacto.<br>El equipo de CmJ agradece su confianza.</h5>
+																							<input type="submit" value="Aceptar" class="class_submit" id="id_botonAceptar">
+																				</div>  
 													
-																<input type="text" id="inp_nombre" name="str_nombre"  autofocus  placeholder="Nombre" required >
-																<input type="text" id="inp_apellido" name="str_apellido" placeholder="Apellido" required>
-																<input type="email"  id="inp_email" name="str_email" placeholder="E-mail" required>
-																<textarea id="inp_comentario" name="str_comentario" cols="80" rows="5" spellcheck="true" placeholder="Comentario" required></textarea>
-																<ul class="class_ul_formulario">
-																		<li><input type="submit" value="  Enviar "></li>
-																		<li><input type="reset" value="  Borrar "></li>
-																</ul>
+																				<input type="text" id="inp_nombre" name="str_nombre"  autofocus  placeholder="Nombre" required >
+																				<input type="text" id="inp_apellido" name="str_apellido" placeholder="Apellido" required>
+																				<input type="email"  id="inp_email" name="str_email" placeholder="E-mail" required>
+																				<textarea id="inp_comentario" name="str_comentario" cols="80" rows="5" spellcheck="true" placeholder="Comentario" required></textarea>
+																				<ul class="class_ul_formulario">
+																						<li><input type="button" value="  Enviar "  id="id_btnvermodal" class="class_btnvermodal"></li>
+																						<li><input type="reset" value="  Borrar "></li>
+																				</ul>
 														
 																					
 																	</form>

@@ -5,6 +5,7 @@ var gdivconsultoria="";
 var gdivdesarrolloweb="";
 var gdivproyectos="";
 var gdivcontacto="";
+var ventanamodal="";
 
 /*ESTA FUNCION GESTIONA LA VISIBILIDAD DE LOS DIVS RELACIONADOS CON EL MENU*/
 
@@ -73,8 +74,28 @@ var gdivcontacto="";
         imgsoftware.addEventListener("click",menusoftware,false);
         imgdesarrolloweb.addEventListener("click",menudesarrolloweb,false);
 
+        
+        
+        //ventana modal del formulario de envio mail
+        ventanamodal=document.getElementById("div_mensaje");
+        ventanamodal.style.display="none";
+        
+        var botonmodal=document.getElementById("id_btnvermodal");
+        botonmodal.addEventListener("click",mostrarmodal,false);
+        
     }
     
+
+        function mostrarmodal(){
+
+            ventanamodal.style.display="inline-block";
+    
+         }
+  
+
+
+
+
     
   
     function menuinicio(){

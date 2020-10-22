@@ -220,8 +220,8 @@ min-height: 500px;
 
 		margin-left: 0px;
 		margin-top: 0px;
-		padding-top: 90px;
-		padding-left: 2px;
+		padding-top: 95px;
+		padding-left: 0px;
 	}
 
 
@@ -236,7 +236,7 @@ min-height: 500px;
 #nav_menu_principal li{
 	display: inline;
 	padding-bottom: 35px;
-	padding-left: 25px;
+	padding-left: 15px;
 	margin-bottom: 65px;
 }
 
@@ -244,7 +244,7 @@ min-height: 500px;
 
 	text-decoration: none;
 	font-family: "cmjfonts";
-	font-size: 1.3em;
+	font-size: 1.4em;
 	font-style: normal;
 	font-weight: bolder;
 	color: #232f3e;
@@ -256,7 +256,7 @@ min-height: 500px;
 #nav_menu_principal a:hover {
 	
 	font-family: "cmjfonts";
-	font-size: 1.5em;
+	font-size: 1.6em;
 	font-style: normal;
 	font-weight: bolder;               
 	color: #005ec2;
@@ -461,7 +461,103 @@ justify-content:center
 
 /* #########################################--FIN--##################################################### */
 
+/****VENTANA MODAL  DEL FORM ENVIAR CORREO */
 
+
+
+#div_mensaje{
+ 
+	position: absolute;
+	z-index: 2;
+	margin-top: 0px;
+	margin-bottom: 200px;
+	margin-left: 0px;
+	/*margin-right: auto;*/
+	width: 500px;
+	height: 400px;
+	padding-bottom: 10px;
+	background-color: lightslategray;
+	border: solid;
+	border-radius: 10px;
+	text-align: center;
+	opacity: 0.9;
+	
+	
+	}
+	
+	#div_mensaje h3{/* rotulo ventana */
+			background-color: #000000;
+			color: #ffffff;
+			text-align: left;
+			padding-top: 5px;
+			padding-bottom: 20px;
+			padding-left: 10px;
+			border-radius: 10px 10px 0px 0px;
+			
+			}
+	
+	#div_mensaje h5{/* cuerpo del mensaje */
+	
+	color: #ffffff;
+	text-align: center;
+	width: fit-content;
+	font-weight: 600;
+	font-size: 25px;
+	padding: 15px 15px;
+	margin: 5px auto;*/
+	
+	}
+	
+	.class_submit{/*boton reset con rotulo "Aceptar" sirve para aceptar y limpiar datos formulario  */
+	
+	background-color:gray;
+	color: #ffffff;
+	text-align: center;
+	width: fit-content;
+	font-weight: 900;
+	font-size: 55px;
+	padding: 25px 25px;
+	border-radius: 5px;
+	
+	}
+	
+	
+	.class_X{
+	float: right;
+	color: #ffffff;
+	font-size: 20px;
+	font-weight: 600;
+	width: fit-content;
+	padding: 3px;
+	text-align: center;
+	margin-top: 0px;
+	
+	}
+	
+	.class_btnvermodal{
+	
+	width:fit-content;
+	text-align: center;
+	padding:2px 2px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top:12px;
+	border:3px solid #000;
+	border-top: transparent;
+	border-left: transparent;
+	border-radius:5px;
+	display:block;
+	color:#fff;
+	background-color:#4091ec;    
+			
+	}
+	
+	
+
+
+
+
+/***##################################################################################*/
 
 
 
@@ -572,7 +668,7 @@ max-height: 100px;
 }
  */
 
-form input[type="submit"]{
+/* form input[type="submit"]{
 
 	width:fit-content;
 	text-align: center;
@@ -588,7 +684,7 @@ form input[type="submit"]{
 	color:#fff;
 	background-color:#4091ec;
 } 
-
+ */
 form input[type="submit"]:hover{
 	cursor:pointer;
 
@@ -716,7 +812,7 @@ color: #333333;
 .class_colordiv{
 
 	background-color:#333333;
-	background-image: url(../images/TecladoLlavePasswordCmJ.png);
+	background-image: url(../images/CmJefectoCubismo.png);
 	background-size: cover;
 }
 
