@@ -36,7 +36,7 @@ try {
 
     //Recipients
     $mail->setFrom($correoDe, $nombrecompleto);
-    $mail->addAddress('info@cmjsl.com', 'Administración');     // Add a recipient
+    $mail->addAddress('2410gami@gmail.com', 'Administración');     // Add a recipient
     //$mail->addAddress('ellen@example.com');               // Name is optional
     //$mail->addReplyTo('info@example.com', 'Information');
     //$mail->addCC('cc@example.com');
@@ -56,19 +56,11 @@ try {
     $mail->send();
     echo '  <script>
 
-                   
-                //window.alert("el mensaje se envio con esxito");
                 
-
                 window.history.go(-1);
-                
-                //alert("hola");
-                //evaluar(1);
-                //var ventana="";
-                //ventana=window.document.getElementById("div_mensaje");
-                //ventana.style.display="inline-block";
-                //window.history.go(-1);
+                //document.getElementById("frmContacto").reset();
 
+                
             </script>';
 } catch (Exception $e) {
     echo "Hubo un error en el envio del formulario: {$mail->ErrorInfo}";

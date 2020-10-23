@@ -10,6 +10,8 @@ var ventanamodal="";
 /*ESTA FUNCION GESTIONA LA VISIBILIDAD DE LOS DIVS RELACIONADOS CON EL MENU*/
 
     function main(){
+
+        document.getElementById("frmContacto").reset();
         
         var divinicio=document.getElementById("div_Inicio");
         var divsoftware=document.getElementById("div_Software");
@@ -87,9 +89,51 @@ var ventanamodal="";
     
 
         function mostrarmodal(){
+            
+            valor = document.getElementById("inp_nombre").value;
+            if( valor == null || valor.length == 0 || /^\s+$/.test(valor) ) {
+              
+                    alert("El campo Nombre no es correcto");
+              
+                return false;
+            }
+            
+            valor = document.getElementById("inp_apellido").value;
+            if( valor == null || valor.length == 0 || /^\s+$/.test(valor) ) {
+              
+                alert("El campo Apellido no es correcto");
+                            
+                return false;
+            }
+//********************************************************************************* */
+           /*  valor = document.getElementById("inp_email").value;
+            if   (!/^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3,})+$/.test(valor)){
+                           
+                alert("Introduzca una dirección de email correcta");
+                return false;
+            } */
 
-            ventanamodal.style.display="inline-block";
-    
+            valor = document.getElementById("inp_email").value;
+            if( valor == null || valor.length == 0 || /^@\s+$/.test(valor) ) {
+              
+                alert("El campo Email no es correcto");
+                          
+            return false;
+        }
+            
+            valor = document.getElementById("inp_comentario").value;
+            if( valor == null || valor.length == 0 || /^\s+$/.test(valor) ) {
+              
+                    alert("El campo  comentarios de cumplimentarse correctamente");
+              
+                return false;
+            }
+
+
+
+            ventanamodal.style.display="block";
+            //document.getElementById("frmContacto").reset();
+
          }
   
 
