@@ -51,7 +51,7 @@ h1{
 h3{
 color:#333333;
 font-style: normal;
-font-size: 1.5em;
+font-size: 1em;
 padding: 3px;
 /*size: inherit;*/
 }
@@ -79,7 +79,7 @@ div {
 
 #div_body{
 	background-color:#dedede;
-	width: 90%;
+	width: 80%;
 	margin-left: auto;
 	margin-right: auto;
 	margin-top: 0px;
@@ -123,7 +123,7 @@ div {
 #div_central{
 	display: none;
 	/*font-style: normal;*/
-	font-size: 25px;
+	font-size: 15px;
 	font-weight: lighter;
 	width: 100%;
 	text-align: center ;
@@ -153,7 +153,7 @@ padding: 35px;
 #div_Inicio, #div_Software, #div_Consultoria, #div_DesarrolloWeb, #div_Proyectos, #div_Contacto{
 
 	/*border: solid;*/
-	width: 90%;
+	width: 80%;
 	margin-top: 0px;
 	margin-bottom: 0px;
 	margin-left: auto;
@@ -180,7 +180,7 @@ padding: 35px;
 background-image: url(../images/fondosmenu/Opfondsoftmedida.png);
 background-size: cover;
 background-position: center;
-min-height: 500px;
+min-height: 400px;
 
 
 }
@@ -190,7 +190,7 @@ min-height: 500px;
 	background-image: url(../images/fondosmenu/fondconsultoria.png);
 	background-size: cover;
 	background-position: center;
-	min-height: 500px;
+	min-height: 400px;
 	
 	
 	}
@@ -200,7 +200,7 @@ min-height: 500px;
 	background-image: url(../images/fondosmenu/fondwebdev.png);
 	background-size: cover;
 	background-position: center;
-	min-height: 500px;
+	min-height: 400px;
 	
 	
 	}
@@ -210,7 +210,7 @@ min-height: 500px;
 	background-image: url(../images/fondosmenu/fondcontacto.png);
 	background-size: cover;
 	background-position: center;
-	min-height: 500px;
+	min-height: 400px;
 	
 	
 	}
@@ -419,7 +419,7 @@ justify-content:center
 }
 
 .info_title h2{
-	font-size: 25px;
+	font-size: 15px;
 	text-align: center;
 }
 
@@ -473,8 +473,8 @@ justify-content:center
 	margin-bottom: 200px;
 	margin-left: 0px;
 	/*margin-right: auto;*/
-	width: 500px;
-	height: 400px;
+	width: 400px;
+	height: 300px;
 	padding-bottom: 10px;
 	background-color: lightslategray;
 	border: solid;
@@ -502,7 +502,7 @@ justify-content:center
 	text-align: center;
 	width: fit-content;
 	font-weight: 600;
-	font-size: 25px;
+	font-size: 15px;
 	padding: 15px 15px;
 	margin: 5px auto;*/
 	
@@ -567,7 +567,7 @@ background-color: #ffffff;
 box-shadow: 0px 0px 20px  rgb(0, 0, 0, 0.4);
 /*color:#acaaaaf2;*/
 border-radius: 0.8rem;
-width: 80%;
+width: 60%;
 text-align: justify;
 margin-left: auto;
 margin-right: auto;
@@ -730,10 +730,10 @@ margin: 0rem;
 	display: inline-flex;
 	width: 47%;
 	text-align: inherit;
-	padding: 65px;
-	padding-top: 5px;
+	padding: 35px;
+	padding-top: 1px;
 	padding-bottom: 5px;
-	padding-left: 50px;
+	padding-left: 30px;
 	margin-left: auto;
 	margin-right: auto;
 
@@ -883,6 +883,8 @@ width: 500px;
 
 .class_redsocial {
 
+	display: none;
+	
 	position: relative;
 	text-decoration: none;
 	width: 10%;
