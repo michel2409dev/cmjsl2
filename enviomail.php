@@ -36,7 +36,7 @@ try {
 
     //Recipients
     $mail->setFrom($correoDe, $nombrecompleto);
-    $mail->addAddress('2410gami@gmail.com', 'Administración');     // Add a recipient
+    $mail->addAddress('webcmjformulario@gmail.com', 'Administración');     // Add a recipient
     //$mail->addAddress('ellen@example.com');               // Name is optional
     //$mail->addReplyTo('info@example.com', 'Information');
     //$mail->addCC('cc@example.com');
