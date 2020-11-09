@@ -551,6 +551,25 @@ background: #fff;
   
   }
   
+  
+#nav_menu_principal li{
+
+
+ font-size: 1em;
+
+ padding-top: 10px;
+ padding-bottom: 10px;
+ border-bottom: solid  #ffffff ;
+border-width: 1px;
+
+
+}
+
+
+  
+  
+  
+  
   #ul_menu_principal{
 
   display: none;
@@ -558,6 +577,11 @@ background: #fff;
   margin-top: 0px;
   background-color: #0d285e;
   }
+
+
+
+
+
 
    
 }
