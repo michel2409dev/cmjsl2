@@ -564,7 +564,8 @@ border-width: 1px;
     margin-left: 5px;
     margin-top: 39px;
     padding-top: 25px;
-    font-size: 0.7em;
+    font-size: 0.6em;
+    
   
   }
      
@@ -592,45 +593,51 @@ border-width: 1px;
   
   }
 
-/*   #div_clientes{
 
-background-image: none;
+#sec_infodatos{
 
+ padding-top: 15px;
+ margin: 12% auto;
+ 
+}
 
-  }
-   */
-  /*
+.user_circle, .user_contacto{
 
-  #sec_infodatos{
+  color: #fff;
+  padding: 10px;
 
-    padding: 0px; 
-    margin: 20% auto;
    
-   
-   }
-   
+}
 
-   .user_circle, .user_contacto{
+.user_circle{
+  font-size: 10em;
+  padding-top: 5px;
 
-    color: #fff;
-    padding: 2px;
-    
-     
-  }
+}
 
-   .user_circle{
-     padding-top: 20px;
-     font-size: 2em;
-   
-   }
-   
-   .user_contacto{
-   
-     font-size: 1em;
-          
-   }
-   
-*/
+.user_contacto{
+
+  font-size: 2em;
+  font-weight: bolder;
+  
+}
+
+.user_contacto>a{
+
+text-decoration: none;
+color: #fff;
+
+}
+
+.user_contacto>a:hover,:visited{
+
+text-decoration: none;
+
+
+}
+
+
+
 
 
 }
