@@ -32,32 +32,7 @@ var gulmenuprincipal = "";
         var ulmenuprincipal = document.getElementById("ul_menu_principal");
         gulmenuprincipal = ulmenuprincipal;
 
-/* 
-
-        if (window.matchMedia("(max-width: 1012px)").matches){
-
-            if (gulmenuprincipal.style.display === 'none'){
-
-                gulmenuprincipal.style.display = 'block';
-                //alert(gulmenuprincipal.style.display); 
-            }
-
-            else if (gulmenuprincipal.style.display === 'block'){
-                gulmenuprincipal.style.display = 'none';
-                //alert(gulmenuprincipal.style.display);
-            } 
-
-        }    
-    
-        else{
-            gulmenuprincipal.style.display = 'flex';
-
-        }
-
- */
-
-
-        
+     
         
         var divEmpresa=document.getElementById("div_Empresa");
         var divsoftware=document.getElementById("div_Software");
@@ -120,21 +95,25 @@ var gulmenuprincipal = "";
         mnucontacto.addEventListener("click",menucontacto,false);
         //mnucontacto.addEventListener("mouseover",menucontacto,false); 
 
-    
-
-
-        iconmenu.addEventListener("click",menuhorizontal,false);
-
-
-
-
-
-
+        iconmenu.addEventListener("click",menuvertical,false);
+        
         
     }
     
 
 
+
+    function menuvertical(){
+
+        if(gulmenuprincipal.style.display === 'inline-block')
+            {gulmenuprincipal.style.display = 'none'}
+
+        else
+            {gulmenuprincipal.style.display = 'inline-block'}
+
+    }
+
+/* 
     function menuhorizontal(){
 
         if (window.matchMedia("(max-width: 1012px)").matches){
@@ -156,20 +135,22 @@ var gulmenuprincipal = "";
                     gulmenuprincipal.style.display = 'flex';
 
                 }
-        
 
     }
-    
+     */
   
     function menuEmpresa(){
 
-        var fmenuprincipal = document.getElementById('ul_menu_principal');
+       /*  var fmenuprincipal = document.getElementById('ul_menu_principal');
 
         if(fmenuprincipal.style.display === 'block'){
 
             fmenuprincipal.style.display = 'none';
 
         }
+
+ */
+            gulmenuprincipal.style.display = 'none';
     
             gdivcentral.style.display="inline-block";
             gdivEmpresa.style.display="inline-block";
@@ -182,15 +163,10 @@ var gulmenuprincipal = "";
         }
 
     function menusoftware(){
+    
 
-            var fmenuprincipal = document.getElementById('ul_menu_principal');
+            gulmenuprincipal.style.display = 'none';
 
-            if(fmenuprincipal.style.display === 'block'){
-
-                fmenuprincipal.style.display = 'none';
-
-            }
-        
             gdivcentral.style.display="inline-block";
             gdivEmpresa.style.display="none";
             gdivsoftware.style.display="inline-block";
@@ -204,15 +180,7 @@ var gulmenuprincipal = "";
 
         function menuservicios(){
 
-            var fmenuprincipal = document.getElementById('ul_menu_principal');
-
-            if(fmenuprincipal.style.display === 'block'){
-
-                fmenuprincipal.style.display = 'none';
-
-            }
-        
-
+            gulmenuprincipal.style.display = 'none';
 
             /*alert("hola");*/
             gdivcentral.style.display="inline-block";
@@ -228,13 +196,7 @@ var gulmenuprincipal = "";
 
         function menudesarrolloweb(){
 
-            var fmenuprincipal = document.getElementById('ul_menu_principal');
-
-            if(fmenuprincipal.style.display === 'block'){
-
-                fmenuprincipal.style.display = 'none';
-
-            }
+            gulmenuprincipal.style.display = 'none';
         
 
             gdivcentral.style.display="inline-block";
@@ -250,14 +212,7 @@ var gulmenuprincipal = "";
 
         function menuclientes(){
 
-            var fmenuprincipal = document.getElementById('ul_menu_principal');
-
-            if(fmenuprincipal.style.display === 'block'){
-
-                fmenuprincipal.style.display = 'none';
-
-            }
-        
+            gulmenuprincipal.style.display = 'none';
 
             gdivcentral.style.display="inline-block";
             gdivEmpresa.style.display="none";
@@ -272,13 +227,7 @@ var gulmenuprincipal = "";
 
         function menucontacto(){
 
-            var fmenuprincipal = document.getElementById('ul_menu_principal');
-
-            if(fmenuprincipal.style.display === 'block'){
-
-                fmenuprincipal.style.display = 'none';
-
-            }
+            gulmenuprincipal.style.display = 'none';
         
 
             gdivcentral.style.display="inline-block";

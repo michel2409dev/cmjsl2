@@ -93,37 +93,135 @@ font-size: 2em;
 
 }
   
-  #div_navegacion label{
+
+
+
+
+/* #### VERSION MENU VERTICAL ########################################## */
+
+/* 
+#div_navegacion label{
   
-    display: none;
-    width: fit-content;
-    padding: 0px;
-    border-right: solid 1px #0d285e ;
-    
-  }
-   
-  #div_navegacion label:hover{
+  display: none;
+  width: fit-content;
+  padding: 0px;
+  border-right: solid 1px #0d285e ;
   
-    cursor: pointer;
-    background: rgba(161,173,199,0.3);
-  
-  }
- 
+}
+  */
+
+/* 
+
+#div_navegacion label:hover{
+
+  cursor: pointer;
+  background: rgba(161,173,199,0.3);
+
+}
+
+ */
+
+
+
+#div_navegacion{
+
+  background: #0d285e;
+  height: 50px;
+  margin-top: 5px;
+  position: relative;
+  /*margin-top: -8%;*/
+  /*border: solid red;*/
 
   
   
+}
+
+
+#label_menu:hover{
+
+  cursor: pointer;
+  background: rgba(161,173,199,0.3);
+
+}
+
+
+
+
+#label_menu{
+
+  display:block;
+  width: fit-content;
+  text-align: center;
+  padding: 10px;
+  border-right: solid 1px #0d285e ;
   
-  #div_navegacion{
   
-    background: #0d285e;
-    height: 50px;
-    margin-top: 5px;
-    /*margin-top: -8%;*/
-    /*border: solid red;*/
+}
+
+ 
+#nav_menu_principal{
+/* position: absolute;
+z-index: 10;
+left: 4px;
+
+width: 70%;
+ */
+ text-align: left;
+
+}
+
+#nav_menu_principal li:hover {
+  border-right: solid;
+  border-width: 1px;
+  border-color: rgb(255, 255, 255,0.8);   
+  cursor: pointer;
+  background: rgba(161,173,199,0.3);
+}
+
+
+#nav_menu_principal li{
+
+font-size: 1em;
+padding: 15px 20px;
+border-bottom: solid  #ffffff ;
+border-width: 1px;
+
+
+
+
+}
+
+
+#ul_menu_principal{
+
+display: none;
+list-style: none;
+text-decoration: none;
+
+margin-top: 0px;
+background-color: #0d285e;
+}
+
+
   
-    
-    
-  }
+#ul_menu_principal>li>a:link,:visited{
+
+  text-decoration: none;
+  color: #fff;
+
+}
+
+
+
+
+
+
+
+
+
+/* ############## FIN MENU VERTICAL #################################### */
+
+
 
 
 
@@ -191,11 +289,12 @@ font-weight: bolder;
   
   }
   
+/* ############### MENU HORIZONTAL EN LINEA ################################ */
 
+/* 
 
 
 #nav_menu_principal{
- 
   display: inline-block;
   vertical-align: bottom;
   margin: 0px;
@@ -203,48 +302,41 @@ font-weight: bolder;
   
   padding-top: 10px;
   width: 100%;
- /*border: solid orange;*/
-
-}
-
-
-
-
+ }
 #ul_menu_principal{
   display: flex;
   list-style: none;
   margin-top: 0px;
-
 }
-
 #nav_menu_principal li{
-
-    flex: auto;
-   font-size: 0.8em;
+ flex: auto;
+ font-size: 0.8em;
 }
-
-
-
 #nav_menu_principal li:hover {
-
   border-right: solid;
   border-width: 1px;
   border-color: rgb(255, 255, 255,0.8);   
   cursor: pointer;
   background: rgba(161,173,199,0.3);
-  
-  }
-  
-
+}
 #nav_menu_principal li a{
-
   color: #fff;
   display: block;
   padding: 5px 3px;
   text-decoration: none;
-/*transition: 0.3s;
-transition: ease-in-out 0.1s;*/
 }
+
+ */
+
+
+/* ##################  FIN MENU HORIZONTAL ############################# */
+
+
+
+
+
+
+
 
 #div_clientes{
 
