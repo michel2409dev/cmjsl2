@@ -33,6 +33,7 @@ body{
 
   font-family: "cmjfonts";
   color:#0d285e;
+  font-size: 100%;
   
 }
   
@@ -77,67 +78,35 @@ margin: 0px auto;
   font-size: 0.9em;
 
 }
-   
-  #btn_menu{
-
-
-  display: none;
-  
-}
-
-#icon_menu{
-
-color: #fff;
-font-size: 2em;
-
-
-}
-  
-
-
-
-
-/* #### VERSION MENU VERTICAL ########################################## */
-
-/* 
-#div_navegacion label{
-  
-  display: none;
-  width: fit-content;
-  padding: 0px;
-  border-right: solid 1px #0d285e ;
-  
-}
-  */
-
-/* 
-
-#div_navegacion label:hover{
-
-  cursor: pointer;
-  background: rgba(161,173,199,0.3);
-
-}
-
- */
-
-
 
 #div_navegacion{
 
   background: #0d285e;
-  height: 50px;
-  margin-top: 5px;
+  /*height: 50px;*/
+  margin-top: 0.25vw;
   position: relative;
-  /*margin-top: -8%;*/
-  /*border: solid red;*/
+  display: grid;
+  grid-template-columns: 3% auto;
+  justify-items: left;
+  align-items: stretch;
+  padding: 0.5rem;
 
-  
+
   
 }
 
+  
+/* ############### MENU HORIZONTAL EN LINEA ################################ */
 
-#label_menu:hover{
+ .icono_menu{
+  color: #ffffff;
+  font-size: 1.5em;
+  padding: 0.25vw;
+
+ }
+
+
+ .icono_menu:hover{
 
   cursor: pointer;
   background: rgba(161,173,199,0.3);
@@ -146,31 +115,34 @@ font-size: 2em;
 
 
 
-
-#label_menu{
-
-  display:block;
-  width: fit-content;
-  text-align: center;
-  padding: 10px;
-  border-right: solid 1px #0d285e ;
-  
-  
-}
-
- 
 #nav_menu_principal{
-/* position: absolute;
-z-index: 10;
-left: 4px;
+  
+  display: inline-block;
+  padding-left: 0.8vw;
+  text-align: center;
+  width: 100%;
+  
 
-width: 70%;
- */
- text-align: left;
+ }
+
+
+
+  #ul_menu_principal{
+  display: none;
+  list-style: none;
+  text-decoration: none;
+  background-color: #0d285e;
+    
+}
+
+#ul_menu_principal li{
+  flex: auto;
+padding: 0.5rem;
 
 }
 
-#nav_menu_principal li:hover {
+
+#ul_menu_principal li:hover {
   border-right: solid;
   border-width: 1px;
   border-color: rgb(255, 255, 255,0.8);   
@@ -179,53 +151,12 @@ width: 70%;
 }
 
 
-#nav_menu_principal li{
-
-font-size: 1em;
-padding: 15px 20px;
-border-bottom: solid  #ffffff ;
-border-width: 1px;
-
-
-
-
-}
-
-
-#ul_menu_principal{
-
-display: none;
-list-style: none;
-text-decoration: none;
-
-margin-top: 0px;
-background-color: #0d285e;
-}
-
-
-  
 #ul_menu_principal>li>a:link,:visited{
-
+  
   text-decoration: none;
   color: #fff;
 
 }
-
-
-
-
-
-
-
-
-
-/* ############## FIN MENU VERTICAL #################################### */
-
-
-
-
-
-
 
 
 
@@ -288,49 +219,6 @@ font-weight: bolder;
   
   
   }
-  
-/* ############### MENU HORIZONTAL EN LINEA ################################ */
-
-/* 
-
-
-#nav_menu_principal{
-  display: inline-block;
-  vertical-align: bottom;
-  margin: 0px;
-  text-align: center;
-  
-  padding-top: 10px;
-  width: 100%;
- }
-#ul_menu_principal{
-  display: flex;
-  list-style: none;
-  margin-top: 0px;
-}
-#nav_menu_principal li{
- flex: auto;
- font-size: 0.8em;
-}
-#nav_menu_principal li:hover {
-  border-right: solid;
-  border-width: 1px;
-  border-color: rgb(255, 255, 255,0.8);   
-  cursor: pointer;
-  background: rgba(161,173,199,0.3);
-}
-#nav_menu_principal li a{
-  color: #fff;
-  display: block;
-  padding: 5px 3px;
-  text-decoration: none;
-}
-
- */
-
-
-/* ##################  FIN MENU HORIZONTAL ############################# */
-
 
 
 
@@ -624,21 +512,15 @@ background: #fff;
 
 }
    
- 
-  #div_navegacion label{
 
-    margin-left: 2px;
-    display:block;
   
-  }
-
-   
  #nav_menu_principal{
   position: absolute;
   z-index: 10;
-  left: 4px;
+  top: 7.3vh;
+  left: -0.25rem;
   /*height: 30%; */
-  width: 70%;
+  width: 50%;
   text-align: left;
   
   }
@@ -657,10 +539,6 @@ border-width: 1px;
 
 }
 
-
-  
-  
-  
   
   #ul_menu_principal{
 

@@ -23,7 +23,7 @@ var gulmenuprincipal = "";
 
     function main(){
 
-        var iconmenu = document.getElementById("label_menu");
+        var iconmenu = document.getElementById("icon_barras");
         giconmenu = iconmenu;
         //gpantalla = window.matchMedia("(max-width: 913)");
         
@@ -95,7 +95,7 @@ var gulmenuprincipal = "";
         mnucontacto.addEventListener("click",menucontacto,false);
         //mnucontacto.addEventListener("mouseover",menucontacto,false); 
 
-        iconmenu.addEventListener("click",menuvertical,false);
+        iconmenu.addEventListener("click",menugeneral,false);
         
         
     }
@@ -103,53 +103,56 @@ var gulmenuprincipal = "";
 
 
 
-    function menuvertical(){
+    function menugeneral(){
 
-        if(gulmenuprincipal.style.display === 'inline-block')
-            {gulmenuprincipal.style.display = 'none'}
 
-        else
-            {gulmenuprincipal.style.display = 'inline-block'}
-
-    }
-
-/* 
-    function menuhorizontal(){
 
         if (window.matchMedia("(max-width: 1012px)").matches){
 
-                    if (gulmenuprincipal.style.display === 'none'){
+            if (gulmenuprincipal.style.display === 'block'){
 
-                        gulmenuprincipal.style.display = 'block';
-                        //alert(gulmenuprincipal.style.display); 
-                    }
-  
-                    else{
-                        gulmenuprincipal.style.display = 'none';
-                        //alert(gulmenuprincipal.style.display);
-                    } 
- 
-                }    
+                gulmenuprincipal.style.display = 'none';
+                //alert(gulmenuprincipal.style.display); 
+            }
+
+            else{
+                gulmenuprincipal.style.display = 'block';
+                //alert(gulmenuprincipal.style.display);
+            } 
+         
+
+        }    
+    
+        else{
             
-                else{
-                    gulmenuprincipal.style.display = 'flex';
+            if (gulmenuprincipal.style.display === 'flex'){
 
-                }
+                gulmenuprincipal.style.display = 'none';
+                //alert(gulmenuprincipal.style.display); 
+            }
 
-    }
-     */
-  
-    function menuEmpresa(){
+            else{
+                gulmenuprincipal.style.display = 'flex';
+                //alert(gulmenuprincipal.style.display);
+            } 
 
-       /*  var fmenuprincipal = document.getElementById('ul_menu_principal');
-
-        if(fmenuprincipal.style.display === 'block'){
-
-            fmenuprincipal.style.display = 'none';
 
         }
 
- */
+
+
+        /* if(gulmenuprincipal.style.display === 'inline-block')
+            {gulmenuprincipal.style.display = 'none'}
+
+        else
+            {gulmenuprincipal.style.display = 'flex'} */
+
+    }
+
+  
+    function menuEmpresa(){
+
+
             gulmenuprincipal.style.display = 'none';
     
             gdivcentral.style.display="inline-block";
