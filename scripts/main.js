@@ -110,6 +110,23 @@ var gulmenuprincipal = "";
     function menugeneral(){
 
         gdivCaratula.style.display = "inline-block"; 
+
+
+        //var x = document.getElementById("myDIV");
+
+        // Start the animation with JavaScript
+        //function myFunction() {
+          //gdivCaratula.style.WebkitAnimation = "mymove 4s 1"; // Code for Chrome, Safari and Opera
+
+
+            gdivCaratula.style.animation = "mymove 1s 1";     // Standard syntax
+            
+        
+
+
+
+
+
         gdivEmpresa.style.display="none";  
         gdivsoftware.style.display="none";
         gdivservicios.style.display="none";

@@ -45,7 +45,7 @@ body{
  
 #div_central{
   
-  width: 40%;
+  width: 50%;
   height: 100%;
   margin: 1% auto;
   text-align: center;
@@ -176,11 +176,19 @@ padding: 0.5rem;
 
 
 /* #div_Empresa h3, #div_Software h3, #div_servicios h3, #div_DesarrolloWeb h3, #div_clientes h3, #div_Contacto h3 */
-.contennido_divs h3{
+.class_h3{
   color: #232f3e;
-  padding-top: 10px;
-  padding-bottom: 5px;
-  font-size: 1.5em ;
+  padding-top: 0.5em;
+  padding-bottom: 0.5px;
+  font-size: 1.2em ;
+  margin-bottom: 1em;
+
+
+}
+.class_h4{
+
+  font-size: 0.81em;
+
 
 }
 
@@ -198,7 +206,7 @@ text-align: justify;
 padding-left: 10px;
 padding-top: 0px;
 padding-right: 10px;
-font-size: .8em;
+font-size: 1.1em;
 line-height: 25px;
 border: solid;
 border-top: transparent;
@@ -214,9 +222,9 @@ border-color: #a1adc7;
   width: 30%;
   opacity: .5;
   float: right;
-  margin-left: 12px;
-  margin-top: 35px;
-  border-radius: 5px;
+  margin-left: 1em;
+  margin-top: 4em;
+  border-radius: 0.5em;
  
 }
 
@@ -227,33 +235,34 @@ font-weight: bolder;
 }
 
 #div_caratula{
+  display: none;
 margin:0;
 padding: 0;
 width: 100%;
-min-height: 60vh;
-background-color: #ffffff;
+min-height: 65vh;
+background-color:transparent;
 background-image: url(../images/CaratulaInicio.png);
 background-repeat: no-repeat;
+max-width: 100%;
 background-size: 100%;
 background-position: center;
 object-fit: cover;
-
+animation: mymove;
+animation-timing-function: linear;
 
 }
 
-#div_footer{
 
-  width: 99%;
-  margin: 2% auto;
-  min-height: 70px;
-  background-color: #0d285e;
-  padding: 5px;
+
+
+@keyframes mymove {
+0%{transform:rotateY(0deg);}
+100%{transform:rotateY(360deg);}
+
   
-  
-  }
-
-
-
+ /*  from {margin-top: 0px;}
+  to {margin-top: -500px;} */
+}
 
 
 
@@ -433,6 +442,20 @@ text-decoration: none;
 }
 
 
+#div_footer{
+
+  width: 99%;
+  margin: 0 auto;
+  /*min-height: 70px;*/
+  background-color: #0d285e;
+  padding: 5px;
+  
+  
+  }
+
+
+
+
 #div_footer>footer>figure>img{
 
 width: 40%;
@@ -524,6 +547,11 @@ background: #fff;
     
   }
 
+
+  
+
+
+
   #div_navegacion{
     margin-top: 5px;
   }
@@ -588,6 +616,12 @@ background: #fff;
 
 @media screen and (max-width: 700px){
 
+  .contenido_divs{
+    font-size: 0.7em;
+    line-height: 17px;
+
+  }
+
  
   .rotulo_titulo{
     margin-left: 5px;
@@ -606,20 +640,37 @@ background: #fff;
 
 .class_h5{
 
-  font-size: 0.7em;
+  font-size: 0.5em;
 
 }
+
+.class_h4{
+
+  font-size: .8em;
+
+
+}
+
+
 
 
 
 #div_caratula{
-  background-color: transparent;
-  margin:0;
   padding: 0;
   width: 100%;
-  height: 10vh;
-  /*min-height: 60vh;*/
-}
+  background-color:transparent;
+  max-width: 100%;
+  background-image: url(../images/CaratulaInicioVertical.png);
+  background-repeat: no-repeat;
+  max-width: 100%;
+  background-size: 100%;
+  background-position: center;
+  object-fit: cover;
+  
+  
+  }
+
+
 
 
 #lista_clientes{
